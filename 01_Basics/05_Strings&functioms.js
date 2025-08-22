@@ -22,6 +22,23 @@ console.log(str3);
 console.log(str3.trim());//removes trailing spaces
 console.log(secondgamename.includes("Truck"));
 console.log(secondgamename.includes(str2));
+console.log(gamename.slice(4,9));
+console.log(gamename.slice(-9,2));
+let subsganename = gamename.substring(0, 5)
+console.log(subsganename);
+console.log(subsganename.toLowerCase());
+console.log(subsganename.toUpperCase());
+let url = "CORMSE/NE/searchtransaction%20EMP002%20";
+let correcturl = url.replace("%20", "-")
+let newcorrecturl = url.replaceAll("%20", "-")
+console.log(url);
+console.log(correcturl);
+console.log(newcorrecturl);
+
+
+
+
+
 
 
 
